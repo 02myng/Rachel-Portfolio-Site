@@ -2,12 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumb Sans', sans-serif;
+    font-family: 'Helvetica Bold', Helvetica, sans-serif;
 }
 
 .navbar {
-    background: #131313;
-    height: 80 px;
+    background: #FFF5DA;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,11 +26,11 @@
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
+    
 }
 
 #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #2E201D;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -59,7 +59,7 @@
 }
 
 .navbar__links {
-    color: #fff;
+    color: #2E201D;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,19 +86,20 @@
     width: 100%;
     border: none;
     outline: none;
-    border-radius: 4px;
-    background-color: #f77062;
-    color: #fff;
+    border-radius: 100px;
+    background-color: #2E201D;
+    color: #FFF5DA;
 }
 
 .button:hover {
-    background: #4837ff;
-    transition: all 0.3s ease;
+    background: #FF6B71;
+    color: #2E201D;
+    transition: all 0.4s ease;
 
 }
 
 .navbar__links:hover {
-    color: #f77062;
+    color: #FF6B71;
     transform: all 0.3s ease;
 }
 
@@ -124,12 +125,13 @@
         transform: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: #131313;
+        background: #FFF5DA;
 
     }
     
+    /* background */
     .navbar__menu.active {
-        background: #131313;
+        background: #FFF5DA;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -147,7 +149,7 @@
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: #fff;
+        background: #FF6B71;
     }
 
     .navbar__item {
@@ -203,7 +205,7 @@
 
 /* Hero Section CSS */
 .main{
-    background-color: #141414;
+    background-color: #FFF5DA;
 }
 
 .main__container {
@@ -213,7 +215,7 @@
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #141414;
+    background-color: #FFF5DA;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -221,5 +223,9 @@
 }
 
 .main__content h1 {
-    
+    font-size: 4rem;
+    color: #2E201D;
+    background-size: 100%;
 }
+
+
